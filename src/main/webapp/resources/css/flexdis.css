@@ -1,0 +1,30 @@
+.containerflex {
+	width: 100%;
+	margin: auto;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+.flex-grid {
+	color: white;
+	display: flex;
+	margin: auto -1rem 1rem;
+}
+
+.col {
+	background-color: white;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	padding: 1rem;
+}
+
+.sidebar {
+	margin: 0;
+	padding: 15;
+	padding-top: 0;
+	flex: 1;
+}
+
+.main {
+	flex: 3;
+}
